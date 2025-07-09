@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    margin: 20px auto;
+}
+
+li {
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+}
+
+.dragging {
+    opacity: 0.5;
+}
