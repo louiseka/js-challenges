@@ -3,7 +3,7 @@ const vowels = ["a", "e", "i", "o", "u"]
 function findVowels(str) {
 
     if (typeof (str) === "string") {
-        const letterArr = str.split("")
+        const letterArr = str.toLowerCase().split("")
         const includedVowels = letterArr.filter((letter) => vowels.includes(letter))
         const vowelsQuantity = includedVowels.length
 
@@ -20,7 +20,7 @@ function findVowels(str) {
 }
 
 findVowels("hello")
-findVowels("Louise")
+findVowels("ELouise")
 findVowels(true)
 
 
